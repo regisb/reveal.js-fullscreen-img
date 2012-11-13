@@ -9,9 +9,9 @@ To use this plugin, you will need to use both the included js script and stylesh
   - copy fullscreen-img.css to your css/ folder
   - include both files in your presentation:
 
-		<link rel="stylesheet" href="css/fullscreen-img.css">
-		<script>
-			Reveal.initialize({
+    <link rel="stylesheet" href="css/fullscreen-img.css">
+    <script>
+      Reveal.initialize({
         ...
         dependencies: [
           // Syntax highlight for <code> elements
