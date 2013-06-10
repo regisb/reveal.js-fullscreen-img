@@ -4,11 +4,19 @@
 var BGR;
 
 function fullscreen(event) {
-  var url = event.currentSlide.getAttribute("fullscreen-img");
+
+  var contentImg = event.currentSlide.querySelector(".fullscreen-img");
+  if (contentImg){
+      var url = contentImg.src;
+      contentImg.style.display = 'none';
+  }
+  else{
+      var url = event.currentSlide.getAttribute("fullscreen-img");
+  }
+
+  
   var backgroundholder = document.querySelector(".state-background"); 
   if(url) {
-    
-
 
     if(typeof BGR == "undefined")
     {

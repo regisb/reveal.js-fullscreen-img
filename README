@@ -31,6 +31,15 @@ A title page:
     <h2>Interesting subtitle</h2>
   </section>
 
+Alternately, you can include an image, then give it a class of 'fullscreen-img' and 
+it will be set to display none, and included as the background image:
+
+  <section>
+    <h1>A Fantastic Title</h1>
+    <h2>Interesting subtitle</h2>
+    <img src="img/cover_image.jpg" class="fullscreen-img" />
+  </section>
+
 If you want to scale the image so that the entire image is contained in the
 slide, add a fullscreen-size attribute with value "contain" to your section:
 
