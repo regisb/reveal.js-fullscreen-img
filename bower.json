@@ -1,0 +1,10 @@
+{
+    "name": "reveal.js-fullscreen-img",
+    "version": "1.0.0",
+    "description": "Display gorgeous fullscreen images in reveal.js presentations.",
+    "license": "MIT",
+    "dependencies": {
+        "components-revealjs": ">=2.6.1"
+    },
+    "main": "fullscreen-img.js"
+}
