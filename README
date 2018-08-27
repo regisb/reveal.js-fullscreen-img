@@ -1,6 +1,8 @@
 Reveal.js fullscreen image plugin
 ---------------------------------
 
+NOTE: this plugin is now (Jan. 2014) deprecated in favor of reveal.js' native data-background-image property: https://github.com/hakimel/reveal.js/#image-backgrounds
+
 This is a simple plugin to insert full screen images in your presentations.
 
 To use this plugin, you will need to use both the included js script and stylesheet:
