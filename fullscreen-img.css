@@ -5,6 +5,7 @@
 .fullscreen {
   background-size: cover; 
   -moz-background-size: cover;
+  opacity: 0.2;
 }
 
 .fullscreen .state-background {
@@ -53,3 +54,11 @@
   padding-top: 40px;
 }
 
+#imageContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
